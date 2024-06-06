@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.323f6052.css",
+    "main.js": "./static/js/main.033c1a2f.js",
+    "static/media/pixel16.jpg": "./static/media/pixel16.bb9863a4f570876cc2eb.jpg",
+    "static/media/pixel14.jpg": "./static/media/pixel14.fadc08c9c5629fa0df8d.jpg",
+    "static/media/pixel15.jpg": "./static/media/pixel15.fadc08c9c5629fa0df8d.jpg",
+    "static/media/pixel12.jpg": "./static/media/pixel12.e672631689145ed844ee.jpg",
+    "static/media/myimage.jpg": "./static/media/myimage.bc54e40d3846a4e1b01c.jpg",
+    "static/media/pixel13.jpg": "./static/media/pixel13.f57ccd73989ce6620d4e.jpg",
+    "static/media/taskify.png": "./static/media/taskify.d9bd95cc83dcabda6f06.png",
+    "index.html": "./index.html",
+    "main.323f6052.css.map": "./static/css/main.323f6052.css.map",
+    "main.033c1a2f.js.map": "./static/js/main.033c1a2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.323f6052.css",
+    "static/js/main.033c1a2f.js"
+  ]
+}
