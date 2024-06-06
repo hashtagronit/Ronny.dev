@@ -8,5 +8,5 @@ module.exports = {
     fontFamily: {Signature:["Great Vibes"]}
   },
   plugins: [],
-  base: "/portfolio/"
+  base: "/Ronny.dev/"
 }
