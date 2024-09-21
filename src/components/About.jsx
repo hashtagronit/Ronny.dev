@@ -20,10 +20,10 @@ const About = () => {
               </button>
               <button
   onClick={() => {
-    const resumeUrl = './Ronit_Resume.pdf'; // Escape the single quote in the filename
+    const resumeUrl = 'https://drive.google.com/uc?export=download&id=18H97NWFju9hCkPKe2Kk-4we4Y3r2PXTl'; // Google Drive direct download link
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Ronit_Resume.pdf'; // Set the downloaded filename
+    
     link.click();
   }}
   className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded-lg focus:outline-none"
