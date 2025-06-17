@@ -56,7 +56,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <a className="logo" href="/Portfolio">
+        <a className="logo" href="/ronny.dev">
           <img src={Logo} alt="Logo" className="logo-img" />
         </a>
         <div className="navbar-right">
