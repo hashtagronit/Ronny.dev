@@ -1,0 +1,112 @@
+:root {
+  --skills-heading-color: #333c4d;
+  --skills-title-color: #333c4d;
+
+  --skills-card-bg: #f0f4f8;
+  --skills-shadow: rgba(0, 0, 0, 0.6);
+  --skills-hover-shadow: rgba(0, 0, 0, 0.9);
+  --skills-hover-bg: #e6e6e6;
+
+  --skills-box-bg: #ffffff;
+  --skills-box-shadow: rgba(0, 0, 0, 0.05);
+  --skills-box-hover: rgba(0, 0, 0, 0.1);
+  --skills-text-color: #1f2937;
+
+  --skills-dot-bg: #7b2ff7;
+  --skills-dot-border: #f107a3;
+  --skills-dot-glow: rgba(123, 47, 247, 0.8);
+
+  --skills-line-gradient: linear-gradient(to right, #7b2ff7, #f107a3);
+  --skills-line-glow: rgba(123, 47, 247, 0.8);
+
+  --skills-title: #1f2937;
+  --skills-org: #4b5563;
+  --skills-duration: #ca8a04;
+  --skills-details: #374151;
+  --skills-toggle: #2563eb;
+}
+
+body.dark {
+  --skills-heading-color: #e0e7ff;
+  --skills-subtitle-color: #cbd5e1;
+  --skills-box-bg: #1f1f1f;
+  --skills-box-shadow: rgba(255, 255, 255, 0.1);
+  --skills-box-hover: rgba(0, 255, 255, 0.5);
+  --skills-text-color: #e2e8f0;
+}
+
+.skills-section {
+  padding: 60px 20px 0 ;
+  text-align: center;
+  color: var(--skills-text-color);
+ 
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 4px solid #9ca3af;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--skills-heading-color);
+}
+
+.skills-subtitle {
+  font-size: 1.1rem;
+  margin: 1rem auto 2.5rem;
+  max-width: 600px;
+  padding: 0 1rem;
+  color: var(--skills-subtitle-color);
+}
+
+.skills-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.skill-box {
+  background-color: var(--skills-box-bg);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px var(--skills-box-shadow);
+  color: var(--skills-text-color);
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--skills-box-hover);
+}
+
+.skill-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+}
+
+.skill-box p {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .skills-section h2 {
+    font-size: 2rem;
+  }
+
+  .skill-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-box p {
+    font-size: 0.85rem;
+  }
+}
