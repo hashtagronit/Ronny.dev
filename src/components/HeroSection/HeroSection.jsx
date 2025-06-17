@@ -95,7 +95,7 @@ const HeroSection = () => {
             transition={{ duration: 1.7 }}
           >
             <a
-              href="https://drive.google.com/file/d/1Z2D0uldD9u-FGhYLqQaaNTxZcXAB-wdj/view?usp=sharing"
+              href="https://drive.google.com/file/d/14-sQDVOvcQYcJM_IU8PbMFGb9R0gJT3K/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="join-button shine-button"
